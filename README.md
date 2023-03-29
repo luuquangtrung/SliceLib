@@ -36,7 +36,7 @@ Format of each instance:
 
 4 4             # [PHYSICAL NETWORK] num_nodes num_links
 
-1 10 10 10 10	# node_id - attribute_1 - attribute_2 - attribute_3	- attribute_4	
+1 10 10 10 10	# node_id - attribute_1 - attribute_2 - attribute_3 - attribute_4	
 2 10 10 10 10
 3 10 10 10 10
 4 10 10 10 10
