@@ -6,7 +6,7 @@ Format of each instance:
 
 ```
 0   # identifier of network trace ('0': synthetic, '1': real)
-2   # nb of slices
+2   # num_slices
 
 1 1 0 2		# [SLICE 1] slice id - slice_weight - slice_arrival_time - num_sfcs
 
