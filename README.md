@@ -14,7 +14,7 @@ Format of each instance:
 1 10 10 10 10	# vnode_id - attribute_1 - attribute_2 - attribute_3 - attribute_4
 2 10 10 10 10
 3 10 10 10 10
-1 1 2 10 10 # vlink_id - ingress - egress - attribute_1 - attribute_2
+1 1 2 10 10     # vlink_id - ingress - egress - attribute_1 - attribute_2
 2 2 3 10 10
 
 2 3 2           # [SFC 2 OF SLICE 1] ...
@@ -34,14 +34,14 @@ Format of each instance:
 1 1 2 10 10		
 2 2 3 10 10
 
-4 4   # [PHYSICAL NETWORK] num_nodes num_links
+4 4        # [PHYSICAL NETWORK] num_nodes num_links
 
 1 10 10 10 10	# node_id - attribute_1 - attribute_2 - attribute_3	- attribute_4	
 2 10 10 10 10
 3 10 10 10 10
 4 10 10 10 10
 
-1 1 2 10 10   # link_id - ingress - egress - attribute_1 - attribute_2
+1 1 2 10 10     # link_id - ingress - egress - attribute_1 - attribute_2
 2 2 3 10 10
 3 3 4 10 10
 4 1 1 10 10
