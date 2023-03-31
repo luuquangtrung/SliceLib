@@ -2,10 +2,10 @@
 SliceLib is a library of test instances for network slice embedding problem
 
 
-Format of each instance:
+Format of each data instance for slices:
 
 ```
-0   # identifier of network trace ('0': synthetic, '1': real)
+0   # identifier of sice trace ('0': synthetic, '1': real)
 2   # num_slices
 
 1 1 0 2		# [SLICE 1] slice id - slice_weight - slice_arrival_time - num_sfcs
@@ -33,6 +33,11 @@ Format of each instance:
 3 10 10 10 10
 1 1 2 10 10		
 2 2 3 10 10
+```
+
+Format of each data instance for the physical network:
+
+```
 
 4 4             # [PHYSICAL NETWORK] num_nodes num_links
 
