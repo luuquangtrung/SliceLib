@@ -35,10 +35,10 @@ Format of each data instance for slices:
 2 2 3 10 10
 ```
 
+
 Format of each data instance for the physical network:
 
 ```
-
 4 4             # [PHYSICAL NETWORK] num_nodes num_links
 
 1 10 10 10 10	# node_id - attribute_1 - attribute_2 - attribute_3 - attribute_4	
